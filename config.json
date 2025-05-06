@@ -1,0 +1,20 @@
+{
+    "api": {
+        "url"                   : "https://api.football-data.org/v4/competitions",
+        "url_today_match"       : "https://api.football-data.org/v4/matches",
+        "league"                : "CL",
+        "endpoint_match"        : "matches?status=FINISHED",
+        "endpoint_table"        : "standings",
+        "endpoint_scorers"      : "scorers",
+        "drop_columns_today"    : ["id", "group", "odds.msg", "referees", "matchday", "area.id", "area.flag", "area.code", "competition.id", "season.id", "season.currentMatchday", "season.startDate", "season.endDate", "utcDate", "homeTeam.shortName", "awayTeam.shortName", "homeTeam.id", "awayTeam.id", "score.regularTime.home", "score.regularTime.away", "score.extraTime.home", "score.extraTime.away", "score.penalties.home", "score.penalties.away", "competition.emblem", "season.winner", "homeTeam.tla", "homeTeam.crest", "awayTeam.tla", "awayTeam.crest", "score.winner", "score.duration", "score.fullTime.home", "score.fullTime.away", "score.halfTime.home", "score.halfTime.away"],
+        "drop_columns"          : ["group", "odds.msg"]
+    },
+    "email": {
+        "SMTP_SERVER" : "smtp.gmail.com",
+        "SMTP_PORT" : 587,
+        "EMAIL" : "jlopera0729@gmail.com",
+        "SUBJECT": "Today's matches",
+        "TO_EMAIL": "J-0729@hotmail.com",
+        "MESSAGE": "These are the matches for today. Regards."
+    }
+}
