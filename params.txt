@@ -1,0 +1,5 @@
+url = "https://api.football-data.org/v4/competitions"
+league = "CL"
+endpoint_match = "matches?status=FINISHED"
+endpoint_table = "standings"
+endpoint_scorers = "scorers"
